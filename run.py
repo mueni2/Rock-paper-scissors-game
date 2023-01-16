@@ -4,7 +4,12 @@
 
 import random
 
+user_wins = 0
+computer_wins = 0
+
+
 CHOICES = 'rps'
+name = input("What is your name? ")
 
 
 def get_player_choice():
